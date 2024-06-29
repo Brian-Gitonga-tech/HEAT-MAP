@@ -1,0 +1,24 @@
+body{
+    background-color: rgba(0, 0, 0, 0.658);
+    display: inline;
+}
+
+.svg {
+    position: absolute;
+    left: 5%;
+}
+#legend {
+    background-color: white;
+    display: inline-block;
+    width: 40%;
+    position: absolute;
+    left: 5%;
+    top: 120%;
+}
+#fill {
+   width: 10%;
+   height: 35%;
+}
+#tooltip {
+    visibility: hidden;
+}

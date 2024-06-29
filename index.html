@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+    <title>HEAT MAP</title>
+</head>
+<body>
+    <h1 id="title" style="text-align: center; color: white;">Monthly Global Land-Surface Temperature</h1>
+    <h2 id="description" style="text-align: center; color:  white;">1753 - 2015: base temperature 8.66℃</h2>
+    <div id="tooltip">
+
+    </div>
+    <svg id="legend">
+        <rect id="fill" fill="rgb(69, 117, 180)" x="120" y="50">
+            <text style="color: black;">
+                Variance less than (-2)
+            </text>
+        </rect>
+        <rect id="fill" fill="rgb(255, 255, 191)" x="200" y="50"></rect>
+        <rect id="fill" fill="rgb(253, 174, 97)" x="280" y="50"></rect>
+        <rect id="fill" fill="rgb(215, 48, 39)" x="360" y="50"></rect>
+    </svg>
+    <script src="d3.js"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
